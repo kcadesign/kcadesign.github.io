@@ -282,7 +282,7 @@ header {
 
 
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 500px) {
     .modal {
         position: fixed;
         right: 0;
@@ -345,7 +345,7 @@ header {
 }
 
 
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 800px) {
     .project-img-wrapper {
         position: relative;
         width: 350px;
