@@ -44,7 +44,7 @@ header {
 .nav {
     display: flex;
     justify-content: space-between;
-    color: blue;
+   
 }
 
 .nav img {
@@ -52,11 +52,6 @@ header {
     width: 180px;
 }
 
-#title {
-    color: #353535;
-    font-size: 5em;
-    margin-top: -5px;
-}
 
 #nav-sections {
     opacity: 0;
@@ -277,12 +272,42 @@ header {
 
 
 @media screen and (min-width: 550px) {
-    
+    header {
+    z-index: 9;
+    position: fixed;
+    width: 100%;
+    height: 150px;
+    background-color: #FFF;
+    padding: 10px 25px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav img {
+    height: 115px;
+    width: 300px;
+}
+
+
+#nav-sections {
+    opacity: 0;
+    padding-top: 5px;
+    font-size: 3.25em;
+    color: #353535;
+    font-weight: bold;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+}
 }
 
 
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
     .modal {
         position: fixed;
         right: 0;
@@ -342,6 +367,11 @@ header {
         left: 45%;
         transform: translate(-50%, 0);
     }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+
 }
 
 
