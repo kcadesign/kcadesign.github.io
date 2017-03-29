@@ -181,11 +181,12 @@ header {
 
 .project-roll {
     opacity: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    
+    
+    
     width: 100%;
-    padding: 115px 25px 0 25px;
+    padding-top: 115px;
+    padding-left: 25px;
     animation-name: fadeIn;
     animation-duration: 2s;
     animation-delay: 2.5s;
@@ -198,12 +199,13 @@ header {
 }
 
 .project-img-wrapper {
-    position: relative;
+    display: inline-block;
     width: 150px;
     height: 150px;
     background-color: #353535;
     overflow: hidden;
     margin-bottom: 25px;
+    margin-right: 25px
 }
 
 
