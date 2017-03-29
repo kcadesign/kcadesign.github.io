@@ -47,15 +47,22 @@ header {
 }
 
 .nav img {
-    height: 100px;
+    width: 30%;
 }
 
+#page-title {
+    
+    background-color: #FFF;
+    font-size: 13vw;
+    font-weight: bold;
+    color: #353535;
+}
 
 #nav-sections {
     display: flex;
     justify-content: space-between;
     opacity: 0;
-    padding-top: 5px;
+    margin-top: -35px;
     font-size: 10vw;
     color: #353535;
     font-weight: bold;
