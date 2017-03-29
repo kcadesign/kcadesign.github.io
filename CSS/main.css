@@ -1,0 +1,402 @@
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  background: transparent;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline; 
+}
+
+* {box-sizing: border-box;}
+
+body {font-family: arial;}
+
+ul {list-style-type: none;}
+
+a {transition: all .3s;}
+
+a:link {text-decoration: none;}
+
+a:visited {text-decoration: none;}
+
+a:hover {text-decoration: none;}
+
+a:active {text-decoration: none;}
+
+header {
+    z-index: 9;
+    position: fixed;
+    width: 100%;
+    height: 105px;
+    background-color: #FFF;
+    padding: 10px 25px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+}
+
+.nav img {
+    height: 82px;
+    width: 180px;
+}
+
+#title {
+    color: #353535;
+    font-size: 5em;
+    margin-top: -5px;
+}
+
+#nav-sections {
+    opacity: 0;
+    padding-top: 5px;
+    font-size: 2em;
+    color: #353535;
+    font-weight: bold;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+}
+
+#nav-sections li {transition: all .3s;}
+
+#nav-sections li:hover {
+    cursor: pointer;
+    color: #FFF;
+    background-color: #353535;
+    transition: all .3s;
+}
+
+#about, #contact {
+    color: #353535;
+    text-align: right;
+}
+
+.modal-dimmer {
+    position: fixed;
+    z-index: 2;
+    height: 100vh;
+    width: 100%;
+    background-color: #353535;
+    opacity: .7;
+}
+
+.modal-dimmer:hover {cursor: alias;}
+
+.modal {
+    position: fixed;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    background-color: #353535;
+    animation-name: slideInRight;
+    animation-duration: .5s;
+}
+
+.modal:hover {cursor: alias;}
+
+@keyframes slideInRight {
+    from {right: -300px; opacity: 0}
+    to {right: 0; opacity: 1}
+}
+
+.modal-body {
+    padding: 125px 25px;
+    color: #FFF;
+    font-size: 2em;
+    font-weight: 100;
+}
+
+#about-modal-body {
+    width: 250px;
+    height: 1000px;
+}
+
+.modal ul {
+    text-align: right;
+    width: auto;
+}
+
+.contact {width: auto;}
+
+.contact a {color: #FFF;}
+
+.contact a {transition: all .3s;}
+
+.contact a:hover {
+    cursor: pointer;
+    color: #353535;
+    background-color: #FFF;
+    transition: all .3s;
+}
+
+.highlight {
+    background-color: #FFF;
+    color: #353535;
+}
+
+#kylechetahmet {transition: all .3s;}
+
+#exhibits-awards {
+    position: fixed;
+    height: 225px;
+    left: 25px;
+    top: 760px;
+    z-index: 15;
+    font-size: 2em;
+}
+
+#exhibits-awards-title:hover {
+    cursor: pointer;
+    background-color: #353535;
+    color: #FFF;
+}
+
+#exhibits-awards-title {
+    width: 180px;
+    color: #353535;
+    background-color: #FFF;
+}
+
+
+.exhibits-awards-list {
+    height: 27px;
+    font-size: .6em;
+    background-color: #353535;
+    color: #FFF;
+}
+
+.project-roll {
+    opacity: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    padding: 115px 25px 0 25px;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+.project-img-wrapper {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: #353535;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+
+.project-img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    -webkit-filter: grayscale(100%);
+    transition: all .5s;
+}
+
+.project-img:hover {
+    transform: scale(.95);
+    -webkit-filter: grayscale(0%);
+}
+
+.project-img-overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    color: #353535;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 25%;
+}
+
+.dimmer {
+    position: fixed;
+    z-index: 10;
+    height: 100vh;
+    width: 100%;
+    background-color: #353535;
+    opacity: .7;
+}
+
+.dimmer:hover {cursor: alias;}
+
+.set-description {
+    margin-top: 5px;
+    background-color: #353535;
+    color: #FFF;
+    font-size: .9em;
+}
+
+.set-title {
+    font-size: 1.2em;
+}
+
+.lightbox {
+    position: fixed;
+    z-index: 11;
+    width: 90%;
+    height: auto;
+    overflow: hidden;
+    margin: 130px 5% 0 5%;
+    
+}
+
+.lightbox-img {
+    max-width: 100%;
+}
+
+.lightbox-img:hover {cursor: e-resize;}
+
+
+
+@media screen and (min-width: 550px) {
+    
+}
+
+
+
+@media screen and (min-width: 800px) {
+    .modal {
+        position: fixed;
+        right: 0;
+        width: 50%;
+        height: 100%;
+        z-index: 3;
+        background-color: #353535;
+        animation-name: slideIn;
+        animation-duration: .5s;
+    }
+    
+    #about-modal {
+        left: 0;
+        animation-name: slideIn;
+        animation-duration: .5s;
+    }
+    
+    .project-img-wrapper {
+        position: relative;
+        width: 250px;
+        height: 250px;
+        background-color: #353535;
+        overflow: hidden;
+        margin-bottom: 25px;
+    }
+
+
+    .project-img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        -webkit-filter: grayscale(100%);
+        transition: all .5s;
+    }
+
+    .project-img:hover {
+        transform: scale(.95);
+        -webkit-filter: grayscale(0%);
+    }
+
+    .project-img-overlay {
+        position: absolute;
+        top: 0;
+        opacity: 1;
+        width: 100%;
+        height: 100%;
+        color: #FFF;
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: bold;
+        padding-top: 25%;
+    }
+    
+    .lightbox {
+        position: fixed;
+        max-width: 730px;
+        left: 45%;
+        transform: translate(-50%, 0);
+    }
+}
+
+
+@media screen and (min-width: 1250px) {
+    .project-img-wrapper {
+        position: relative;
+        width: 350px;
+        height: 350px;
+        background-color: #353535;
+        overflow: hidden;
+        margin-bottom: 25px;
+    }
+    
+    .dimmer {
+        position: fixed;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+}
+
+
+@media screen and (min-width: 1800px) {
+    .project-roll {
+        opacity: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+        padding: 115px 20vw 0 20vw;
+        animation-name: fadeIn;
+        animation-duration: 2s;
+        animation-delay: 2.5s;
+        animation-fill-mode: forwards;
+    }
+    
+    header {
+        z-index: 9;
+        position: fixed;
+        width: 100%;
+        height: 105px;
+        background-color: #FFF;
+        padding: 10px 20vw;
+    }
+    
+    #contact-modal-body {
+        padding: 125px 20vw;
+        color: #FFF;
+        font-size: 2em;
+        font-weight: 100;
+    }
+    
+    #about-modal-body {
+        padding-left: 20vw;
+        width: 32vw;
+    }
+    
+    #exhibits-awards {left: 20vw;}
+}
