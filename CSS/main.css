@@ -122,12 +122,12 @@ header {
     padding-top: 28%;
     padding-left: 25px;
     color: #FFF;
-    font-size: 2em;
-    font-weight: 100;
+    font-size: 3em;
+    font-weight: 300;
 }
 
 #about-modal-body {
-    width: 250px;
+    width: 400px;
     height: 1000px;
 }
 
@@ -161,11 +161,12 @@ header {
 
 #exhibits-awards {
     position: fixed;
-    height: 225px;
+    height: 300px;
     left: 25px;
-    top: 920px;
+    top: 1140px;
     z-index: 15;
-    font-size: 2em;
+    font-size: 3em;
+    font-weight: 300;
 }
 
 #exhibits-awards-title:hover {
@@ -175,7 +176,7 @@ header {
 }
 
 #exhibits-awards-title {
-    width: 180px;
+    width: 400px;
     color: #353535;
     background-color: #FFF;
 }
