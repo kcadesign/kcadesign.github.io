@@ -13,7 +13,7 @@ $(document).ready(function () {
         $("#exhibits-awards").animate({"top": "350px"}, "slow");
     }, function () {
         $('#about-modal-body, .exhibits-awards-list').slideToggle("slow");
-        $("#exhibits-awards").animate({"top": "920px"}, "slow");
+        $("#exhibits-awards").animate({"top": "1250px"}, "slow");
     });
     
     $('#contact').on('click', function () {
