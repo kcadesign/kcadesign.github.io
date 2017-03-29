@@ -195,12 +195,12 @@ header {
 
 .project-img-wrapper {
     display: inline-block;
-    width: 150px;
-    height: 150px;
+    width: 40vw;
+        height: 40vw;
     background-color: #353535;
     overflow: hidden;
     margin-bottom: 25px;
-    margin-right: 25px
+    margin-right: 25px;
 }
 
 
@@ -271,8 +271,11 @@ header {
 
 
 
+
+
+
 @media screen and (min-width: 550px) {
-    header {
+        header {
     z-index: 9;
     position: fixed;
     width: 100%;
@@ -303,11 +306,6 @@ header {
     animation-delay: 2.5s;
     animation-fill-mode: forwards;
 }
-}
-
-
-
-@media screen and (min-width: 600px) {
     .modal {
         position: fixed;
         right: 0;
@@ -325,10 +323,14 @@ header {
         animation-duration: .5s;
     }
     
+    .project-roll {
+        padding-top: 155px
+    }
+    
     .project-img-wrapper {
         position: relative;
-        width: 250px;
-        height: 250px;
+        width: 40vw;
+        height: 40vw;
         background-color: #353535;
         overflow: hidden;
         margin-bottom: 25px;
@@ -369,10 +371,7 @@ header {
     }
 }
 
-/* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
 
-}
 
 
 @media screen and (min-width: 800px) {
