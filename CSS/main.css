@@ -36,7 +36,7 @@ header {
     z-index: 9;
     position: fixed;
     width: 100%;
-    height: 105px;
+    height: 10%;
     background-color: #FFF;
     padding: 10px 25px;
 }
@@ -48,15 +48,14 @@ header {
 }
 
 .nav img {
-    height: 82px;
-    width: 180px;
+    height: 90%;
 }
 
 
 #nav-sections {
     opacity: 0;
     padding-top: 5px;
-    font-size: 2em;
+    font-size: 250%;
     color: #353535;
     font-weight: bold;
     animation-name: fadeIn;
@@ -195,7 +194,6 @@ header {
 
 .project-img-wrapper {
     width: 100%;
-    
     background-color: #353535;
     overflow: hidden;
     margin-bottom: 25px;
