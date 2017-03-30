@@ -10,10 +10,10 @@ $(document).ready(function () {
     
     $("#exhibits-awards").toggle(function () {
         $('#about-modal-body, .exhibits-awards-list').slideToggle("slow");
-        $("#exhibits-awards").animate({"top": "350px"}, "slow");
+        $("#exhibits-awards").animate({"top": "150px"}, "slow");
     }, function () {
         $('#about-modal-body, .exhibits-awards-list').slideToggle("slow");
-        $("#exhibits-awards").animate({"top": "1250px"}, "slow");
+        $("#exhibits-awards").animate({"top": "1175px"}, "slow");
     });
     
     $('#contact').on('click', function () {

@@ -36,9 +36,9 @@ header {
     z-index: 9;
     position: fixed;
     width: 100%;
-    height: 9.5%;
+    height: 13vw;
     background-color: #FFF;
-    padding: 10px 25px;
+    padding: 0 25px;
 }
 
 .nav {
@@ -97,7 +97,8 @@ header {
 
 .modal {
     position: fixed;
-    right: 0;
+    left: 0;
+    
     width: 100%;
     height: 100%;
     z-index: 3;
@@ -114,16 +115,16 @@ header {
 }
 
 .modal-body {
-    padding-top: 28%;
+    padding-top: 19%;
     padding-left: 25px;
     color: #FFF;
-    font-size: 3em;
+    font-size: 3.5em;
     font-weight: 300;
 }
 
 #about-modal-body {
     width: 400px;
-    height: 1000px;
+    height: 1100px;
 }
 
 .modal ul {
@@ -132,9 +133,11 @@ header {
 }
 
 .contact {
+    margin-bottom: 20px;
     padding-right: 25px;
     width: auto;
 }
+
 
 .contact a {color: #FFF;}
 
@@ -158,9 +161,8 @@ header {
     position: fixed;
     height: 300px;
     left: 25px;
-    top: 1250px;
+    top: 1175px;
     z-index: 15;
-    font-size: 3em;
     font-weight: 300;
 }
 
@@ -172,14 +174,16 @@ header {
 
 #exhibits-awards-title {
     width: 400px;
+    font-size: 3.5em;
     color: #353535;
     background-color: #FFF;
 }
 
 
 .exhibits-awards-list {
-    height: 27px;
-    font-size: .6em;
+    margin-top: 20px;
+    height: 40px;
+    font-size: 2.2em;
     background-color: #353535;
     color: #FFF;
 }
@@ -190,7 +194,7 @@ header {
     justify-content: flex-start;
     opacity: 0;
     width: 100%;
-    padding-top: 150px;
+    padding-top: 125px;
     padding-left: 25px;
     animation-name: fadeIn;
     animation-duration: 2s;
