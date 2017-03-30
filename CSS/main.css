@@ -18,6 +18,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 * {box-sizing: border-box;}
 
+
 body {font-family: arial;}
 
 ul {list-style-type: none;}
@@ -267,7 +268,7 @@ header {
 .lightbox-img:hover {cursor: e-resize;}
 
 
-@media only screen and (min-width: 1000px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-width: 800px) {
     header {
         height: 150px;
     }
