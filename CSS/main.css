@@ -199,7 +199,6 @@ header {
     padding-left: 25px;
     animation-name: fadeIn;
     animation-duration: 2s;
-    animation-delay: 2.5s;
     animation-fill-mode: forwards;
 }
 
