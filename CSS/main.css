@@ -249,10 +249,10 @@ header {
     margin-top: 5px;
     background-color: #353535;
     color: #FFF;
-    font-size: 2em;
+    font-size: 1em;
 }
 
-.set-title {font-size: 1.5em;}
+.set-title {font-size: 1.2em;}
 
 .lightbox {
     position: fixed;
@@ -268,7 +268,7 @@ header {
 .lightbox-img:hover {cursor: e-resize;}
 
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 800px) {
     header {
         height: 150px;
     }
