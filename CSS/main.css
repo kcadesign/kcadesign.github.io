@@ -114,26 +114,29 @@ header {
 }
 
 .modal-body {
-    padding-top: 75px;
-    padding-left: 25px;
+    
     color: #FFF;
     font-size: 1.3em;
     font-weight: 300;
 }
 
 #about-modal-body {
-    width: 50%;
+    padding-right: 3%;
+    margin-top: 10%;
+    margin-left: 50%;
+    width: 25%;
     height: 500px;
 }
 
 .modal ul {
+    padding-top: 80%;
     text-align: right;
     width: auto;
 }
 
 .contact {
     height: 35px;
-    padding-right: 25px;
+    padding-right: 3%;
     width: auto;
 }
 
@@ -159,16 +162,10 @@ header {
 #exhibits-awards {
     position: fixed;
     height: 300px;
-    left: 25px;
-    top: 420px;
+    left: 50%;
+    top: 435px;
     z-index: 15;
     font-weight: 300;
-}
-
-#exhibits-awards-title:hover {
-    cursor: pointer;
-    background-color: #353535;
-    color: #FFF;
 }
 
 #exhibits-awards-title {
@@ -177,6 +174,14 @@ header {
     color: #353535;
     background-color: #FFF;
 }
+
+#exhibits-awards-title:hover {
+    cursor: pointer;
+    background-color: #353535;
+    color: #FFF;
+}
+
+
 
 
 .exhibits-awards-list {
