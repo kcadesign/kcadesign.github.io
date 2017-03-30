@@ -64,10 +64,7 @@ header {
     font-size: 9vmin;
     color: #353535;
     font-weight: bold;
-    animation-name: fadeIn;
-    animation-duration: 2s;
-    animation-delay: 2.5s;
-    animation-fill-mode: forwards;
+
 }
 
 #nav-sections li {
@@ -197,10 +194,15 @@ header {
     width: 100%;
     padding-top: 17vw;
     padding-left: 25px;
-
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
 
-
+@keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
 
 .project-img-wrapper {
     width: 100%;
