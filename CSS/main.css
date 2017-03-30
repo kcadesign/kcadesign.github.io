@@ -115,7 +115,7 @@ header {
 }
 
 .modal-body {
-    padding-top: 19%;
+    padding-top: 150px;
     padding-left: 25px;
     color: #FFF;
     font-size: 3.5em;
@@ -161,7 +161,7 @@ header {
     position: fixed;
     height: 300px;
     left: 25px;
-    top: 1175px;
+    top: 1130px;
     z-index: 15;
     font-weight: 300;
 }
