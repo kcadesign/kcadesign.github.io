@@ -52,6 +52,7 @@ header {
 }
 
 #page-title {
+    width: 20vw;
     font-weight: bold;
     color: #353535;
 }
@@ -197,10 +198,7 @@ header {
     width: 100%;
     padding-top: 17vw;
     padding-left: 25px;
-    animation-name: fadeIn;
-    animation-duration: 2s;
-    animation-delay: 2.5s;
-    animation-fill-mode: forwards;
+    
 }
 
 @keyframes fadeIn {
@@ -214,6 +212,10 @@ header {
     overflow: hidden;
     margin-bottom: 25px;
     margin-right: 25px;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    
+    animation-fill-mode: forwards;
 }
 
 
