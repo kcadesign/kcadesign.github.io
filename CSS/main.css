@@ -123,7 +123,7 @@ header {
 #about-modal-body {
     padding-right: 3%;
     margin-top: 10%;
-    margin-left: 40%;
+    margin-left: 30%;
     width: 50%;
     height: 500px;
 }
@@ -162,8 +162,8 @@ header {
 #exhibits-awards {
     position: fixed;
     height: 300px;
-    left: 40%;
-    top: 395px;
+    left: 30%;
+    top: 360px;
     z-index: 15;
     font-weight: 300;
 }
