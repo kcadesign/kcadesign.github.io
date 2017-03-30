@@ -197,15 +197,10 @@ header {
     width: 100%;
     padding-top: 17vw;
     padding-left: 25px;
-    animation-name: fadeIn;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
+
 }
 
-@keyframes fadeIn {
-    from {opacity: 0}
-    to {opacity: 1}
-}
+
 
 .project-img-wrapper {
     width: 100%;
