@@ -267,7 +267,7 @@ header {
 .lightbox-img:hover {cursor: e-resize;}
 
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1000px) and (-webkit-min-device-pixel-ratio: 2) {
     header {
         height: 150px;
     }
