@@ -260,7 +260,7 @@ header {
     width: 90%;
     height: auto;
     overflow: hidden;
-    margin: 130px 5% 0 5%;
+    margin: 15% 5% 0 5%;
 }
 
 .lightbox-img {max-width: 100%;}
@@ -302,4 +302,8 @@ header {
     -webkit-filter: grayscale(100%);
     transition: all .5s;
 }
+    
+    .lightbox {
+        margin-top: 115px;
+    }
 }
